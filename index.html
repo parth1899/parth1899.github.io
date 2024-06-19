@@ -3,27 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Parth Kalani - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
+        <div class="container">
+            <h1>Parth Kalani</h1>
+            <p><a href="mailto:parthkalani1899@gmail.com">parthkalani1899@gmail.com</a> | +91 7358353305 | Pune, India</p>
+            <p><a href="https://github.com/your-github">Github</a> | <a href="https://linkedin.com/in/your-linkedin">LinkedIn</a> | <a href="https://your-portfolio.com">Portfolio</a></p>
+        </div>
     </header>
-    <section>
-        <h2>About Me</h2>
-        <p>Your bio goes here...</p>
+
+    <section class="summary">
+        <div class="container">
+            <h2>Summary</h2>
+            <p>Currently pursuing a computer science degree and actively seeking opportunities to learn and grow through coding competitions & internships.</p>
+        </div>
     </section>
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="https://github.com/<username>/project1">Project 1</a></li>
-            <li><a href="https://github.com/<username>/project2">Project 2</a></li>
-            <!-- Add more projects as needed -->
-        </ul>
+
+    <section class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Vishwakarma Institute of Technology, Pune</h3>
+                <p>BTECH in Computer Engineering - CGPA: 8.73</p>
+                <p>June 2022 - June 2026</p>
+                <p>Coursework: Object Oriented Programming, Data Structures and Algorithms, Database Systems, Compiler Design, Design and Analysis of Algorithms, Computer Networks, Web Technology, Artificial Intelligence, Operating Systems</p>
+            </div>
+            <div class="education-item">
+                <h3>Velammal Vidhyashram, Chennai</h3>
+                <p>Grade 12 - Score: 96%</p>
+            </div>
+        </div>
     </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> C++, Java, Python, JavaScript, Assembly, R</li>
+                <li><strong>Web Development:</strong> Flask, HTML, CSS, Node.js, Electron.js</li>
+                <li><strong>Data Processing & Analysis:</strong> Apache Spark, Apache Kafka, Apache Airflow, Pandas, ETL, Machine Learning, Tableau</li>
+                <li><strong>Databases:</strong> MySQL, MongoDB, PostgreSQL</li>
+                <li><strong>DevOps:</strong> Docker</li>
+                <li><strong>Version Control:</strong> Git, GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3><a href="https://link-to-your-project">Barclays’ Hack-o-Hire Project: “Anomaly Detection Framework”</a></h3>
+                <p>Tech Stack: Apache Spark, Apache Airflow, MongoDB, Python, Isolation Forest, Tableau</p>
+                <p>Developed "Anomaly Detection Framework" for Barclays' Hack-o-Hire Hackathon, qualifying among the top 24 out of 1250 teams registered.</p>
+                <p>Created a framework to identify issues in data submissions in trade feeds compared to regular patterns.</p>
+                <p>Implemented extensive ETL pipeline using Apache Spark and MongoDB and utilized machine learning models like Isolation Forest for anomaly detection.</p>
+                <p>Employed Tableau for data visualization.</p>
+            </div>
+            <div class="project-item">
+                <h3><a href="https://link-to-your-project">Desktop Application for Invoice Generation by using ElectronJS [Sponsored]</a></h3>
+                <p>Tech Stack: MySQL (backend), Electron JS (framework for desktop app), HTML/CSS (frontend)</p>
+                <p>Developed a desktop application for invoice generation using ElectronJS for a sponsored project by Inclined Engineering and Consultancy, Pune.</p>
+                <p>Implemented features to manage and print invoices in predefined templates.</p>
+                <p>Utilized GitHub Actions for continuous integration and deployment.</p>
+            </div>
+            <div class="project-item">
+                <h3><a href="https://link-to-your-project">Auto Black Box 3D</a></h3>
+                <p>Tech Stack: Flask, ThreeJS, Autoencoders, Python, HTML/CSS, ESP8266</p>
+                <p>Developed an Accident Analysis Framework that leverages sensor data from an MPU6050 sensor to capture vehicle acceleration and orientation.</p>
+                <p>Detects abnormalities in vehicle behavior using autoencoders and visualizes anomalies alongside a 3D model of the vehicle along with a timestamp for reference.</p>
+                <p>Provides valuable insights for accident analysis and aids manufacturers in improving vehicle structural design for enhanced safety.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="activities">
+        <div class="container">
+            <h2>Co/Extracurricular Activities</h2>
+            <ul>
+                <li>Presented our “Bus Tracking and Booking Application” paper at the 3rd International Conference on Intelligent Systems, Cognitive Science and Knowledge Engineering (ICKE) 2023.</li>
+                <li>Participated in a 36-hour hackathon conducted by Barclays India, qualifying into the top 24 out of 1250 teams.</li>
+                <li>Event Head as a part of EPEC (Event Planning and Execution Committee) VIT Pune in college fest.</li>
+                <li>Part of The Robotics Forum Club where I learnt interfacing with ESP 32 Wrover Module on TRF’s Rudra Circuit Board.</li>
+                <li>Solved 250+ LeetCode problems.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <ul>
+                <li><a href="https://link-to-your-certification">Fundamentals of Deep Learning by NVIDIA</a></li>
+                <li><a href="https://link-to-your-certification">BrainyPi workshop by IoTIoT.in</a></li>
+            </ul>
+        </div>
+    </section>
+
     <footer>
-        <p>Connect with me: <a href="mailto:your.email@example.com">Email</a></p>
+        <div class="container">
+            <p>&copy; 2024 Parth Kalani. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
